@@ -1,0 +1,99 @@
+body {
+    background-color: #1a1a1a;
+}
+
+.judul {
+    color: white;
+    margin-top: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: #1a1a1a;
+    background-color: #f6b93b;
+    transition: all 0.15s ease-in-out;
+}
+
+button:hover {
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 9px #f6b93b;
+}
+
+a.balik {
+    transition: all ease-in-out 0.2s;
+    opacity: 0;
+    position: fixed;
+    z-index: -1;
+    bottom: 0.4rem;
+    right: 1rem;
+    background-color: #1a1a1a;
+    border-radius: 0.6rem;
+    padding: 0.6rem 0.9rem;
+    color: white;
+}
+
+a.balik.active {
+    opacity: 100;
+    z-index: 9999;
+}
+
+
+/* navbar section */
+
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: 2rem 7%;
+    background-color: transparent;
+    color: #fff;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.cta a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #1a1a1a;
+    background-color: #f6b93b;
+    width: 50px;
+    height: 40px;
+    border-radius: 2rem;
+    font-weight: 500;
+    transition: all 0.15s ease-in-out;
+}
+
+.cta a:hover {
+    color: #fff;
+    width: 50px;
+    height: 40px;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 9px #f6b93b;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px;
+}
